@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+body{
+  background-image: url("https://img.hebus.com/hebus_2012/10/12/preview/1350018901_55593.jpg");
+
+}
+
+.divPokemon{
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 15px;
+  border: solid 1px grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  box-shadow: 1px 1px 1px black;
+  background-color: white;
+}
+
+.divPokemon:hover{
+  box-shadow: 0;
+  top:2px;
+  position: relative;
+  background-color: lightgrey;
+}
